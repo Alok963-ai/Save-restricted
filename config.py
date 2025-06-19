@@ -21,7 +21,7 @@ API_ID = os.getenv("API_ID", "20288951")
 API_HASH = os.getenv("API_HASH", "e8cb5fb7a475b5f5eb3b0ef0e6ca03a8")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://kakabots2:dcaxq9OovneKdukM@cluster0.npttjwe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-OWNER_ID = list(map(int, os.getenv("OWNER_ID", "7877249692").split())) # list seperated via space
+OWNER_ID = list(map(int, os.getenv("OWNER_ID", "7833842279").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "savebot")
 STRING = os.getenv("STRING", None) # optional
 LOG_GROUP = int(os.getenv("LOG_GROUP", "-1004888459763")) # optional with -100
